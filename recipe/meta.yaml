@@ -1,5 +1,5 @@
 {% set name = "jarvis-tools" %}
-{% set version = "2020.10.10" %}
+{% set version = "2020.10.20" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jarvis-tools-{{ version }}.tar.gz
-  sha256: b4cc45267100fe2cc4d114d1453ad39e87d35244ce511c44b1fc99ca277f8a07
+  sha256: abac245d864f44b1c226a5e184bd85340c5d3a05bc10be0c8e7ed83a7c90e12c
 
 build:
   number: 0
@@ -18,13 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.5
   run:
     - joblib
     - matplotlib-base
     - numpy
-    - pytest
-    - python
+    - python >=3.5
     - requests
     - scipy
     - spglib
@@ -43,7 +42,7 @@ test:
 about:
   home: https://jarvis.nist.gov
   summary: 'jarvis-tools: an open-source software package for data-driven atomistic materials design'
-  license: NIST public domain
+  license: NIST-PD
   license_file: LICENSE
   description: |
     NIST-JARVIS (Joint Automated Repository for Various Integrated
