@@ -18,12 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python>=3.5
   run:
     - joblib
     - matplotlib-base
     - numpy
-    - python
+    - python>=3.5
     - requests
     - scipy
     - spglib
@@ -42,7 +42,7 @@ test:
 about:
   home: https://jarvis.nist.gov
   summary: 'jarvis-tools: an open-source software package for data-driven atomistic materials design'
-  license: NIST public domain
+  license: NIST-PD
   license_file: LICENSE
   description: |
     NIST-JARVIS (Joint Automated Repository for Various Integrated
