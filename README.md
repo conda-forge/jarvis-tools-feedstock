@@ -3,7 +3,7 @@ About jarvis-tools
 
 Home: https://jarvis.nist.gov
 
-Package license: NIST public domain
+Package license: NIST-PD
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jarvis-tools-feedstock/blob/master/LICENSE.txt)
 
