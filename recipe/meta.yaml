@@ -29,6 +29,7 @@ requirements:
     - spglib
     - toolz
     - xmltodict
+    - tqdm
 
 test:
   imports:
