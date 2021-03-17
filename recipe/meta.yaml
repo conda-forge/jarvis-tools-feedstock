@@ -1,5 +1,5 @@
 {% set name = "jarvis-tools" %}
-{% set version = "2021.3.4" %}
+{% set version = "2021.3.11" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jarvis-tools-{{ version }}.tar.gz
-  sha256: 25f77d8e18d9a3470ccaedfd5844ad23b92e8b174cfdd4e72b764d6b8e366f4c
+  sha256: e2c85bc5c1bfe7993564cda713f73b07bf25a0cdbef6270e6b24876217716655
 
 build:
   number: 0
@@ -29,6 +29,7 @@ requirements:
     - spglib
     - toolz
     - xmltodict
+    - tqdm
 
 test:
   imports:
