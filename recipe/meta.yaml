@@ -30,6 +30,7 @@ requirements:
     - toolz
     - xmltodict
     - tqdm
+    - cif2cell
 
 test:
   imports:
