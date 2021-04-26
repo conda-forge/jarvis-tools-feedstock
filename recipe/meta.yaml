@@ -22,10 +22,10 @@ requirements:
   run:
     - joblib
     - matplotlib-base
-    - numpy 1.18
+    - numpy
     - python >=3.5
     - requests
-    - scipy 1.4
+    - scipy
     - spglib
     - toolz
     - xmltodict
