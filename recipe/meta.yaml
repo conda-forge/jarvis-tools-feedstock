@@ -1,5 +1,5 @@
 {% set name = "jarvis-tools" %}
-{% set version = "2021.5.16" %}
+{% set version = "2021.5.19" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jarvis-tools-{{ version }}.tar.gz
-  sha256: 650a6b99d5176cd67f4f63ca3adf08482cc5b166d4fdcd0beb8070a5ae2be104
+  sha256: b48e5bf44a428478d24689a74c2b75eb1a124db8ac14f3e50e1a93c944a5dc7b
 
 build:
   number: 0
