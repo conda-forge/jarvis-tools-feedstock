@@ -127,5 +127,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@knc6](https://github.com/knc6/)
 * [@wd15](https://github.com/wd15/)
 
