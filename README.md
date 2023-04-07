@@ -1,11 +1,11 @@
-About jarvis-tools
-==================
+About jarvis-tools-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jarvis-tools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://jarvis.nist.gov
 
 Package license: NIST-PD
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jarvis-tools-feedstock/blob/main/LICENSE.txt)
 
 Summary: jarvis-tools: an open-source software package for data-driven atomistic materials design
 
