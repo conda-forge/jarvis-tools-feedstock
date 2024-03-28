@@ -18,12 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python ==3.10
   run:
     - joblib
     - matplotlib-base
     - numpy
-    - python >=3.9
+    - python ==3.9
     - requests
     - scipy
     - spglib
