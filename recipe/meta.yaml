@@ -1,5 +1,5 @@
 {% set name = "jarvis-tools" %}
-{% set version = "2023.5.26" %}
+{% set version = "2024.3.24" %}
 
 
 package:
@@ -12,18 +12,18 @@ source:
 
 build:
   number: 0
-  noarch: python
+  noarch: python >=3.9
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.9
   run:
     - joblib
     - matplotlib-base
     - numpy
-    - python >=3.5
+    - python >=3.9
     - requests
     - scipy
     - spglib
