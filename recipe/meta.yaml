@@ -43,10 +43,10 @@ test:
     - pip
 
 about:
-  home: https://github.com/knc6/jarvis_leaderboard
-  summary: jarvis_leaderboard
-  license: BSD-3-Clause
-  license_file: LICENSE.rst
+  home: https://github.com/knc6/jarvis
+  summary: jarvis
+  license: NIST-PD
+  license_file: LICENSE
   
 # about:
 #   home: https://jarvis.nist.gov
