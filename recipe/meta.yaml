@@ -29,6 +29,8 @@ requirements:
     - scipy >=1.6.3
     - joblib
     - matplotlib-base
+    - markdown
+    - mkdocs-material
     - requests
     - spglib
     - toolz
