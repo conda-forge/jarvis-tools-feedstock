@@ -1,5 +1,5 @@
 {% set name = "jarvis-tools" %}
-{% set version = "2024.3.24" %}
+{% set version = "2024.3.30" %}
 
 
 package:
