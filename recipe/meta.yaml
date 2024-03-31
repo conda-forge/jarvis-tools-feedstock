@@ -9,7 +9,7 @@ package:
 source:
   # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jarvis-tools-{{ version }}.tar.gz
   url: https://github.com/usnistgov/jarvis/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: cac2a267f2305a61fa136a45a126dd75c2f4b3e119ca2ecfb06be2242ada6584
+  sha256: 6af8d80f0399f3053ce2d3655a709d24fa4a37cf6fd3ab946bc79e37fe62c3ba
   # sha256: 057418647ff25ef45e1d95ac4aa0d53fa81a10115558a8039169af168d4c0394
 
 build:
