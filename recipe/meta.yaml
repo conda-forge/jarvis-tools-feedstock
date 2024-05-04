@@ -1,5 +1,5 @@
 {% set name = "jarvis-tools" %}
-{% set version = "2024.4.20" %}
+{% set version = "2024.4.30" %}
 
 
 package:
@@ -9,11 +9,11 @@ package:
 source:
   # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jarvis-tools-{{ version }}.tar.gz
   url: https://github.com/usnistgov/jarvis/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ce60f6e3e5bc16eac803bffbe722d8732dbb37a9f564b083e31c5b9792ad9a56
+  sha256: 9dd8f5347c8ca3fb3c3b52a4007d05e1c1af8042e49d7a8494b023307c43272d
   # sha256: 057418647ff25ef45e1d95ac4aa0d53fa81a10115558a8039169af168d4c0394
 
 build:
-  noarch: python 
+  noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -51,7 +51,7 @@ about:
   summary: jarvis
   license: NIST-PD
   license_file: LICENSE
-  
+
 # about:
 #   home: https://jarvis.nist.gov
 #   summary: 'jarvis-tools: an open-source software package for data-driven atomistic materials design'
