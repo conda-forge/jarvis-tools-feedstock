@@ -36,6 +36,8 @@ requirements:
     - toolz
     - xmltodict
     - tqdm
+    - inflect
+    - scikit-learn
 
 test:
   imports:
