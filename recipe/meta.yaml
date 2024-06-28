@@ -49,7 +49,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/knc6/jarvis
+  home: https://github.com/usnistgov/jarvis
   summary: jarvis
   license: NIST-PD
   license_file: LICENSE
