@@ -1,5 +1,5 @@
 {% set name = "jarvis-tools" %}
-{% set version = "2024.8.30" %}
+{% set version = "2024.10.10" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 source:
   # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jarvis-tools-{{ version }}.tar.gz
   url: https://github.com/usnistgov/jarvis/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 54a37b41141533bcac4475eaa4f2afec35ae5374de21afb377e0d7598ae7e82c
+  sha256: a36c6f0d69263fd75ff7b7a242de20ce83b9fe4071c852bbdda5867a4da78be0
   # sha256: 057418647ff25ef45e1d95ac4aa0d53fa81a10115558a8039169af168d4c0394
 
 build:
