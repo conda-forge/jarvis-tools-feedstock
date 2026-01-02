@@ -5,7 +5,6 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jarvis-tools-fe
 
 Home: https://github.com/atomgptlab/jarvis
 
-Package license: NIST-PD
 
 Summary: jarvis
 
