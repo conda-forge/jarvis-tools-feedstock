@@ -1,5 +1,5 @@
 {% set name = "jarvis-tools" %}
-{% set version = "2024.10.30" %}
+{% set version = "2025.9.30" %}
 
 
 package:
@@ -8,8 +8,8 @@ package:
 
 source:
   # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jarvis-tools-{{ version }}.tar.gz
-  url: https://github.com/usnistgov/jarvis/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 7685371c5f4aa3ad979ce1fe5a23e404313c28a59c8f3796099d0b36aaa780cd
+  url: https://github.com/atomgptlab/jarvis/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 19b497a11cf676047685b4cb13221a1371529bda245588c69b0dc2e59fc1bc17
   # sha256: 057418647ff25ef45e1d95ac4aa0d53fa81a10115558a8039169af168d4c0394
 
 build:
@@ -49,27 +49,13 @@ test:
     - pip
 
 about:
-  home: https://github.com/usnistgov/jarvis
+  home: https://github.com/atomgptlab/jarvis
   summary: jarvis
-  license: NIST-PD
+  license: Apache 2.0
   license_file: LICENSE
 
-# about:
-#   home: https://jarvis.nist.gov
-#   summary: 'jarvis-tools: an open-source software package for data-driven atomistic materials design'
-#   license: NIST-PD
-#   license_file: LICENSE
-#   description: |
-#     NIST-JARVIS (Joint Automated Repository for Various Integrated
-#     Simulations) is an integrated framework for computational science
-#     using density functional theory, classical force-field/molecular
-#     dynamics and machine-learning. The jarvis-tools package consists
-#     of scripts used in generating and analyzing the dataset. This
-#     project is a part of the Materials Genome Initiative (MGI) at NIST.
-#   doc_url: https://pages.nist.gov/jarvis/
-#   dev_url: https://github.com/usnistgov/jarvis
+
 
 extra:
   recipe-maintainers:
-    - wd15
     - knc6
