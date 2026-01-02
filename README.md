@@ -3,7 +3,7 @@ About jarvis-tools-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jarvis-tools-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/usnistgov/jarvis
+Home: https://github.com/atomgptlab/jarvis
 
 Package license: NIST-PD
 
@@ -144,5 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@knc6](https://github.com/knc6/)
-* [@wd15](https://github.com/wd15/)
+
 
